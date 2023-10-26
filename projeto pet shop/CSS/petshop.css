@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* header */
+
+header{
+    background-image: url(../img/fundo-topo.jpg);
+    text-align: center;
+}
+
+header h1{
+  margin: 84 ;
+  height:
+}
+
+/* menu */
+
+nav li{
+  display:inline;
+  
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+}
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: #6DD432;
+
+}
+
+/* start projeto petshop header e nav */
+
+/* ID */
+
+#itemCamelo{
+    background-image:none;
+    padding-right: 0;
+    margin-right: 0;
+}
