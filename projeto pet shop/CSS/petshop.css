@@ -1,4 +1,4 @@
-*{
+{
     padding: 0;
     margin: 0;
 }
@@ -52,12 +52,71 @@ a:hover{
 
 }
 
-/* start projeto petshop header e nav */
 
 /* ID */
 
-#itemCamelo{
+#itemContato{
     background-image:none;
     padding-right: 0;
     margin-right: 0;
+}
+
+#produto .flex-container{
+    margin-top: 43px;
+}
+
+/* CLASS */
+
+.FundoVerde{
+    background-color: #bdff9c;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container .col{
+    width: 430px;
+}
+
+.flex-container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-centralizado{
+    text-align:center;
+}
+
+.produto{
+    width: 235px;
+}
+
+.produto figure{
+    border: 1px solid black;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img{
+    vertical-align: middle;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
